@@ -1,0 +1,3 @@
+2 + 3 * 5 ;
+new := old + sgn / step ;
+np , x := trial * trial , 2 + 3 ;
