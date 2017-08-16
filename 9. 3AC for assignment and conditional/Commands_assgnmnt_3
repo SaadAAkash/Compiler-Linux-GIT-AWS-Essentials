@@ -1,0 +1,5 @@
+flex tokenizer_lex.l   //create lex.yy.c
+bison grammar_bison.y -d  //create grammar_bison.tab.c
+gcc lex.yy.c grammer_bison.tab.c -lfl   //2ta compile, create a.out
+./a.out
+
