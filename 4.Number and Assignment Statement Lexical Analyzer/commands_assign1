@@ -1,0 +1,3 @@
+$lex assign1.l
+$gcc -o mylexer.o lex.yy.c -lfl
+$./mylexer.o input.in output.out

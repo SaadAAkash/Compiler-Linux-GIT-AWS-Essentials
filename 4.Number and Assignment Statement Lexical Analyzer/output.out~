@@ -1,0 +1,26 @@
+Id a1
+ AssignOP =
+ Scientific -10e-2
+ Relop <=
+ Overflow 33333
+
+Id A1b
+ AssignOP =
+ Div 6
+Div 6
+ Relop <=
+ Hex 0x1AC
+
+Div 6
+Div 6
+Div 6
+
+Decimal 29.59
+ MultOP *
+ Decimal 7.02
+ AddOP +
+ Decimal 0.98
+
+Signed +12.32
+
+
