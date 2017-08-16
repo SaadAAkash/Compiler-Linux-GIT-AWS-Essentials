@@ -1,0 +1,58 @@
+t1=x < y
+if t1 then goto L0:
+goto L1
+L0:
+t2=y - 1
+t3=y + x
+t4=t3 + 1
+z=t4
+goto L8
+L1:
+t5=x > y
+if t5 then goto L6:
+goto L7
+L6:
+L4:
+t6=x > y
+if t6 then goto L2:
+goto L3
+L2:
+t7=y + 1
+x=t7
+goto L4 
+L3:
+goto L9
+L7:
+L9:
+L8:
+
+
+<-----After Optimization--------->
+
+t1=x < y
+if t1 then goto L0:
+goto L1
+L0:
+t2=y - 1
+t3=y + x
+t4=t3 + 1
+z=t4
+goto L8
+L1:
+t5=x > y
+if t5 then goto L6:
+goto L7
+L6:
+L4:
+t6=x > y
+if t6 then goto L2:
+goto L3
+L2:
+t7=y + 1
+x=t7
+goto L4 
+L3:
+goto L9
+L7:
+L9:
+L8:

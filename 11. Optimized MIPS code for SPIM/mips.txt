@@ -1,0 +1,72 @@
+.data
+x: .word 0
+y: .word 0
+z: .word 0
+m: .word 0
+vA: .word 0
+vB: .word 0
+vC: .word 0
+vD: .word 0
+vE: .word 0
+vF: .word 0
+vG: .word 0
+vH: .word 0
+vI: .word 0
+vJ: .word 0
+vK: .word 0
+vL: .word 0
+
+.text
+main:
+
+li $a0, 2 
+sw $a0, vA
+li $a0, 3 
+sw $a0, vB
+lw $t0, vA
+add $a0, $t0, $a0
+sw $a0,  vC
+
+lw $a0, vC
+sw $a0,  x
+
+lw $a0, x 
+sw $a0, vD
+li $a0, 3 
+sw $a0, vE
+lw $t0, vD
+add $a0, $t0, $a0
+sw $a0,  vF
+
+li $a0, 2 
+sw $a0, vH
+lw $t0, vF
+div $a0, $t0, $a0
+sw $a0, vI
+
+lw $a0, vI
+sw $a0,  y
+
+
+lw $a0, x 
+sw $a0, vD
+li $a0, 3 
+sw $a0, vE
+lw $t0, vD
+add $a0, $t0, $a0
+sw $a0,  vF
+
+li $a0, 2 
+sw $a0, vH
+lw $t0, vF
+div $a0, $t0, $a0
+sw $a0, vI
+
+lw $a0, vI
+sw $a0,  y
+
+
+
+
+li $v0, 10
+syscall
