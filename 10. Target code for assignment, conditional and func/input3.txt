@@ -1,0 +1,12 @@
+if x ? y:=4 fi;
+do x ? y:=5 od;
+x:=true | false;
+x:=true & false;
+:=myfunc:=1,2,3;
+myfunc (x, y, z){
+	if x~=true ? m:=x*y*y fi;
+	x:= 4/4;
+	y:= 1+2;
+	z:= -3;
+	return 4
+}

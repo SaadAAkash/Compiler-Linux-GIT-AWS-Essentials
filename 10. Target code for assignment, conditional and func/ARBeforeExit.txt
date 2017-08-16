@@ -1,0 +1,6 @@
+20($SP)->old fp
+16($SP)->3
+12($SP)->2
+8($SP)->1
+4($SP)->fp->return address
+$SP->

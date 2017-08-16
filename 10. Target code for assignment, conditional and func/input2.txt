@@ -1,0 +1,4 @@
+if x < y ? x := y-1;
+	do x < y ? x := x+9
+	od;
+fi;

@@ -1,0 +1,92 @@
+li $a0 x
+li $t1 0
+beq $a0 $t1 L0 
+li $a0 4
+b <<This is a mother label>>
+L0 :
+L1 :
+
+
+L3 :
+li $a0 x
+li $t1 0
+beq $a0 $t1 L2 
+li $a0 5
+b <<This is a mother label>>
+L2 :
+
+
+li $a0 True
+move $t1 $a0
+li $a0 False
+or $a0 $t1 $a0
+
+li $a0 True
+move $t1 $a0
+li $a0 False
+and $a0 $t1 $a0
+
+<<Function Has been Called>>
+sw $fp 0($sp)
+addiu $sp $sp -4
+li $a0 3
+sw $a0 0($sp)
+addiu $sp $sp -4
+li $a0 2
+sw $a0 0($sp)
+addiu $sp $sp -4
+li $a0 1
+sw $a0 0($sp)
+addiu $sp $sp -4
+jal myfunc
+
+myfunc:
+move $fp $sp
+sw $ra 0($sp)
+addiu $sp $sp -4
+li $a0 True
+move $t1 $a0
+li $a0 x
+sne $a0 $a0 $t1
+li $t1 0
+beq $a0 $t1 L4 
+li $a0 y
+sw $a0 0($sp)
+addiu $sp $sp-4
+li $a0 y
+sw $a0 0($sp)
+addiu $sp $sp-4
+li $a0 x
+lw $t1 4($sp)
+multu $a0 $t1
+move $a0 $lo
+addiu $sp $sp 4
+lw $t1 4($sp)
+multu $a0 $t1
+move $a0 $lo
+addiu $sp $sp 4
+b <<This is a mother label>>
+L4 :
+L5 :
+
+
+li $a0 4
+sw $a0 0($sp)
+addiu $sp $sp-4
+li $a0 4
+lw $t1 4($sp)
+div $a0 $t1
+move $a0 $lo
+addiu $sp $sp 4
+
+li $a0 2
+sw $a0 0($sp) -->addiu $sp $sp-4 -->li $a0 1
+lw $t1 4($sp) -->add $a0 $a0 $t1 -- >addiu $sp $sp 4
+
+li $a0 -3
+
+lw $ra 4($sp)
+addiu $sp $sp 20
+lw $fp 0($sp)
+jr $ra 
+
