@@ -6,11 +6,14 @@ AWS Services & API, Use Cases, Scaling Techniques etc
 
 * [AWS in 10 Minutes](https://www.youtube.com/watch?v=r4YIdn2eTm4)
 * AWS Services & API
-  * EC2 Elastic Compute Cloud
-  * VPC (Virtual Private Cloud)
-  * S3 (Simple Storage Service)
-  * RDS (Relational Database Service)
-  * ELB (Elastic Load Balancing)
+  * EC2: Elastic Compute Cloud
+    * [Basics](https://github.com/open-guides/og-aws#ec2-basics)
+    * [Overview](https://www.tutorialspoint.com/amazon_web_services/amazon_web_services_elastic_compute_cloud.htm)
+    * [Creating & Configuring](https://www.guru99.com/creating-amazon-ec2-instance.html)
+  * VPC: Virtual Private Cloud
+  * S3: Simple Storage Service
+  * RDS: Relational Database Service
+  * ELB: Elastic Load Balancing
 * Use Cases
   * AWS Cognito - For User Authentication
   * API Gateway - For creating rest API
@@ -19,4 +22,7 @@ AWS Services & API, Use Cases, Scaling Techniques etc
   * DynamoDB - NoSQL Storage
   * SageMaker - For Model Training and Publishing
 * [Documentation](https://docs.aws.amazon.com/index.html#lang/en_us) 
+* [Deploy a NodeJS APP](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
+* [Scaling 100 to 11 Mil. Users on AWS](
+http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
 
