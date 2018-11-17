@@ -4,7 +4,7 @@ Git Commands, WorkFlow, Branching Model, Best Practices etc
 
 ## Resources
 
-* Git Commands
+* [Git Everyday Workflow Commands](https://gist.github.com/SaadAAkash/745c72fbe3d9d7896b8e70e37aa40860)
 * Git Markdowns
   * [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   * [Badges](https://github.com/Naereen/badges)
@@ -19,4 +19,6 @@ Git Commands, WorkFlow, Branching Model, Best Practices etc
   * [Become a Git expert](https://medium.freecodecamp.org/how-to-become-a-git-expert-e7c38bf54826)
   * [What can go wrong in Git](https://adityasridhar.com/posts/how-you-can-go-wrong-with-git)
   * [Bengali Tutorial](https://medium.com/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE/%E0%A6%97%E0%A6%BF%E0%A6%9F%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%93%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%89%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%9C-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B-1a2d8b107391) 
-
+* GitKraken
+  * [Tutorial](https://www.youtube.com/watch?v=gjtXTm_TvvE)
+  * [Cloning Private Repo](https://stackoverflow.com/questions/41945280/gitkraken-wont-let-me-clone-from-a-private-repo-on-github)
